@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
 :root {
     --azulzinho: #95E7EE;
+    --azul: #07799D;
     --amarelinho: #FEC652;
     --rosinha: #FFE5CB;
   }
@@ -12,7 +13,7 @@
 
 /*        === Header ===          */
 header {
-    background-color: var(--azulzinho);
+    background-color: #1E2121;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,8 +36,8 @@ header img {
     align-items: center;
     justify-content: center;
     gap: 56px;
-    background-color: white;
-    background-image: url("../assets/wave\ 1.png");
+    background-color: var(--amarelinho);
+    background-image: url("../assets/waveAzul.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -60,7 +61,7 @@ header img {
 /*        === cards ===          */
 
 #card-container {
-    background-color: var(--azulzinho);
+    background-color: var(--azul);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,7 +90,7 @@ header img {
 /*        === tela descrição ===          */
 
 #descricao {
-    background-color: var(--azulzinho);
+    background-color: var(--azul);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +111,7 @@ header img {
     align-items: center;
     flex-direction: column;
     gap: 24px;
-    background-color: var(--azulzinho);
+    background-color: var(--azul);
 }
 
 #linguagens {
@@ -127,7 +128,7 @@ header img {
 /*        === footer ===          */
 
 footer {
-    background-color: var(--azulzinho);
+    background-color: var(--azul);
     display: flex;
     align-items: center;
     flex-direction: column;
