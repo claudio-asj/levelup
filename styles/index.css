@@ -27,6 +27,29 @@ header img {
     margin-right: 32px;
 }
 
+header ul { 
+    margin-left: 300px;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    color: var(--amarelinho);
+    text-decoration: none;
+    border: 2px solid var(--amarelinho);
+    margin: 46px;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+header a:hover {
+    color: #1E2121;
+    transition: 0.3s all;
+    background-color: var(--amarelinho);
+}
+
 /*        === tela de bem vindo ===          */
 
 #ola {
