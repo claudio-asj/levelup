@@ -106,5 +106,68 @@ header img {
 /*        === tecnologias ===          */
 
 #tecnologias {
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    background-color: var(--azulzinho);
 }
+
+#linguagens {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#tecnologias h3 {
+    font-weight: 300;
+    font-size: 32px;
+}
+
+/*        === footer ===          */
+
+footer {
+    background-color: var(--azulzinho);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+
+}
+
+footer i {
+    font-size: 32px;
+    margin: 8px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*        === scroll bar color ===          */
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--rosinha);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--amarelinho);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--rosinha);  /* creates padding around scroll thumb */
+  }
+  body {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: var(--amarelinho) var(--rosinha);   /* scroll thumb and track */
+  }
+    
