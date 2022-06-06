@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+:root {
+    --azulzinho: #95E7EE;
+    --amarelinho: #FEC652;
+    --rosinha: #FFE5CB;
+  }
+
+*{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+/*        === Header ===          */
+header {
+    background-color: var(--azulzinho);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 48px;
+    height: 10vh;
+}
+header img {
+    height: 42px;
+}
+#logo img {
+    margin-right: 32px;
+}
+
+/*        === tela de bem vindo ===          */
+
+#ola {
+    height: 90vh;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    background-color: white;
+    background-image: url("../assets/wave\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#ola img {
+    width: 356px;
+    height: 432px;
+}
+
+#ola h1 {
+    font-weight: 500;
+    font-size: 72px;
+}
+
+#ola h2 {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+/*        === cards ===          */
+
+#card-container {
+    background-color: var(--azulzinho);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 72px 0;/* <--- tirar depois */
+}
+
+.card {
+    background-color: var(--rosinha);
+    width: 260px;
+    height: 350px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px var(--amarelinho);
+}
+
+.card img {
+    width: 90%;
+    margin-top: 16px;
+}
+
+/*        === tela descrição ===          */
+
+#descricao {
+    background-color: var(--azulzinho);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#descricao img {
+    margin-bottom: 32px;
+}
+#descricao p {
+    width: 60%;
+    margin-bottom: 32px;
+}
+
+/*        === tecnologias ===          */
+
+#tecnologias {
+    
+}
