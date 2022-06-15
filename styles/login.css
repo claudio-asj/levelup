@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+:root {
+    --azulzinho: #95E7EE;
+    --azul: #07799D;
+    --amarelinho: #FEC652;
+    --rosinha: #FFE5CB;
+    --lalanja: #F5812D;
+  }
+
+*{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+/*        === Header ===          */
+header {
+    background-color: #1E2121;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 48px;
+    height: 10vh;
+}
+header img {
+    height: 42px;
+}
+#logo img {
+    margin-right: 32px;
+}
+
+header ul { 
+    margin-left: 300px;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    color: var(--amarelinho);
+    text-decoration: none;
+    border: 2px solid var(--amarelinho);
+    margin: 46px;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+header a:hover {
+    color: #1E2121;
+    transition: 0.4s all;
+    background-color: var(--amarelinho);
+}
+
+/*        === Main ===          */
+
+main {
+    height: 90vh;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*        === Form ===          */
+
+form {
+    background-color: rgba(0, 0, 0, 0.44);
+    width: 439px;
+    height: 347px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+/*        === Inputs ===          */
+
+.input {
+    border: 2px solid var(--lalanja);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 4px 8px;
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: white;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.input::placeholder {
+    color: white;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 16px;
+}
+
+#key {
+    width: 300px;
+    color: white;
+    text-align: right;
+    margin-top: -16px;
+    margin-right: -12px;
+    font-size: 10px;
+    font-family: "poppins";
+    font-weight: 100;
+}
+
+button {
+    background-color: var(--lalanja);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: white;
+}
+
+#enter {
+    width: 191px;
+    padding: 2px;
+    margin-bottom: 16px;
+    margin-top: 29px; 
+}
